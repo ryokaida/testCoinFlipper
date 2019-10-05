@@ -1,6 +1,6 @@
 import random
 
-class CoinClass:
+class Coin:
 	
 	#method to either get 1 or 2
 	#@return num either 1 or 2

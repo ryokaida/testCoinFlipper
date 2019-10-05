@@ -1,14 +1,20 @@
-from CoinClass import CoinClass
+from CoinClass import Coin
+from D6Class import D6
 
 #make a coin object
-coin = CoinClass()
+coin = Coin()
 
 #flip the coin
 num = coin.coinFlip();
-print(num);
 
 #tell if heads or tails
 if (num == 1):
-	print("Heads");
+	print("Coin: Heads " + str(num));
 else:
-	print("Tails");
+	print("Coin: Tails");
+
+#roll d6
+d6 = D6()
+num = d6.rollD6();
+print("D6: " + str(num));
+
